@@ -61,6 +61,7 @@ Relationships were established using **foreign keys** to simulate a real-world h
 * Extracted actionable insights from large-scale data
 
 ## Top Medical Conditions
+<img width="670" height="309" alt="top_medical_conditions png " src="https://github.com/user-attachments/assets/8193d482-43a4-4f58-9d50-e72eab206597" />
 This query identifies the most common medical conditions among patients. Chronic diseases such as Arthritis, Diabetes, and Hypertension dominate, indicating long-term healthcare demand.
 
 ## Revenue by Hospital
