@@ -65,6 +65,8 @@ Relationships were established using **foreign keys** to simulate a real-world h
 This query identifies the most common medical conditions among patients. Chronic diseases such as Arthritis, Diabetes, and Hypertension dominate, indicating long-term healthcare demand.
 
 ## Revenue by Hospital
+<img width="813" height="793" alt="Revenue by Hospital" src="https://github.com/user-attachments/assets/64c25282-48e0-4b50-85dd-15e7145bcb36" />
+
 This analysis highlights hospital-wise revenue contributions. It helps identify high-performing hospitals and potential revenue concentration patterns.
 
 ## Author
