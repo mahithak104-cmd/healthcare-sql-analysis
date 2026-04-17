@@ -16,6 +16,13 @@ The dataset was normalized into three main tables:
 
 Relationships were established using **foreign keys** to simulate a real-world healthcare database system.
 
+## Business Questions Answered
+
+- What are the most common medical conditions?
+- Which hospitals generate the highest revenue?
+- What is the average patient stay duration?
+- Which patients have multiple admissions?
+
 ## Skills & Tools Used
 
 * SQL (MySQL)
@@ -36,10 +43,10 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Key Analysis & Insights
 
-1. Certain medical conditions (e.g., Diabetes, Hypertension) account for the majority of hospital admissions, indicating major healthcare cost drivers.
-2. A small number of hospitals generate disproportionately high revenue, suggesting uneven distribution of patient load.
-3. Patients with multiple admissions highlight potential chronic conditions or gaps in post-treatment care.
-4. Average length of stay provides insight into hospital efficiency and resource utilization.
+- Chronic diseases such as Arthritis and Diabetes dominate patient admissions
+- Revenue is concentrated among a subset of hospitals
+- Some patients have repeated visits, indicating long-term conditions
+- Average hospital stay provides insight into healthcare load
 
 
 ## Dataset Details
@@ -62,9 +69,16 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Top Medical Conditions
 <img width="670" height="309" alt="top_medical_conditions png " src="https://github.com/user-attachments/assets/8193d482-43a4-4f58-9d50-e72eab206597" />
-This query identifies the most common medical conditions among patients. Chronic diseases such as Arthritis, Diabetes, and Hypertension dominate, indicating long-term healthcare demand.
+
+**Insight:** Chronic diseases dominate patient admissions.
 
 ## Revenue by Hospital
 <img width="813" height="793" alt="Revenue by Hospital" src="https://github.com/user-attachments/assets/64c25282-48e0-4b50-85dd-15e7145bcb36" />
 
-This analysis highlights hospital-wise revenue contributions. It helps identify high-performing hospitals and potential revenue concentration patterns.
+**Insight:** A small number of hospitals generate the highest revenue.
+
+## Advanced Analysis
+
+- Used window functions to find top conditions per hospital
+- Calculated running revenue trends over time
+- Identified patients with above-average hospital stay
