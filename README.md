@@ -36,25 +36,11 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Key Analysis & Insights
 
-### 1. Most Common Medical Conditions
+1. Certain medical conditions (e.g., Diabetes, Hypertension) account for the majority of hospital admissions, indicating major healthcare cost drivers.
+2. A small number of hospitals generate disproportionately high revenue, suggesting uneven distribution of patient load.
+3. Patients with multiple admissions highlight potential chronic conditions or gaps in post-treatment care.
+4. Average length of stay provides insight into hospital efficiency and resource utilization.
 
-Identified top conditions based on frequency of admissions.
-
-### 2. Hospital Revenue Analysis
-
-Calculated total billing amount per hospital to identify high-revenue centers.
-
-### 3. Patient Stay Duration
-
-Measured average length of stay using date functions.
-
-### 4. High-Frequency Patients
-
-Detected patients with multiple admissions (potential readmissions).
-
-### 5. Top Conditions per Hospital
-
-Used window functions to rank medical conditions within each hospital.
 
 ## Dataset Details
 
