@@ -4,7 +4,14 @@
 
 This project analyzes a healthcare dataset containing **55,000+ records** using SQL.
 The raw CSV data was transformed into a structured relational database to enable meaningful analysis of hospital performance, patient trends, and healthcare costs.
+Demonstrated end-to-end data analysis workflow from raw data to insights.
 
+## Key Analysis & Insights
+
+- Chronic diseases such as Arthritis and Diabetes dominate patient admissions.
+- Revenue is concentrated among a subset of hospitals.
+- Some patients have repeated visits, indicating long-term conditions.
+- Average hospital stay provides insight into healthcare load.
 
 ## Database Design
 
@@ -34,20 +41,11 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Data Processing Workflow
 
-1. Imported raw CSV dataset into MySQL
-2. Cleaned and standardized column formats (dates, text fields)
-3. Created normalized tables
-4. Inserted and joined data across tables
-5. Performed analytical queries to extract insights
-
-
-## Key Analysis & Insights
-
-- Chronic diseases such as Arthritis and Diabetes dominate patient admissions
-- Revenue is concentrated among a subset of hospitals
-- Some patients have repeated visits, indicating long-term conditions
-- Average hospital stay provides insight into healthcare load
-
+1. Imported raw CSV dataset into MySQL.
+2. Cleaned and standardized column formats (dates, text fields).
+3. Created normalized tables.
+4. Inserted and joined data across tables.
+5. Performed analytical queries to extract insights.
 
 ## Dataset Details
 
@@ -63,9 +61,9 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Project Outcome
 
-* Built a fully normalized relational database
-* Performed real-world healthcare analytics using SQL
-* Extracted actionable insights from large-scale data
+* Built a fully normalized relational database.
+* Performed real-world healthcare analytics using SQL.
+* Extracted actionable insights from large-scale data.
 
 ## Top Medical Conditions
 <img width="670" height="309" alt="top_medical_conditions png " src="https://github.com/user-attachments/assets/8193d482-43a4-4f58-9d50-e72eab206597" />
@@ -79,6 +77,6 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## Advanced Analysis
 
-- Used window functions to find top conditions per hospital
-- Calculated running revenue trends over time
-- Identified patients with above-average hospital stay
+- Used window functions to find top conditions per hospital.
+- Calculated running revenue trends over time.
+- Identified patients with above-average hospital stay.
