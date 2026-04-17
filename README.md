@@ -62,8 +62,7 @@ Relationships were established using **foreign keys** to simulate a real-world h
 
 ## 📊 Top Medical Conditions
 
-![Top Conditions](<img width="670" height="309" alt="top_medical_conditions png " src="https://github.com/user-attachments/assets/17ca8b60-f996-4d06-8c47-0f2e2d46e32a" />
-)
+![Top Conditions]( )
 
 This query identifies the most common medical conditions among patients. Chronic diseases such as Arthritis, Diabetes, and Hypertension dominate, indicating long-term healthcare demand.
 
